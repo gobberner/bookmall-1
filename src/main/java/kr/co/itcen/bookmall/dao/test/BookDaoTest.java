@@ -16,18 +16,18 @@ public class BookDaoTest {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("================ BookDao Test Start ================");
+		System.out.println("");
 		
 //		deleteTest();
 		insertTest();
 		selectTest();
 		updateTest();
 		
-		System.out.println("================ BookDao Test End ================");
+		System.out.println("");
 	}
 
 	public static void updateTest() {
-		System.out.println("Update Test ----------------------------");
+		System.out.println("");
 		String title = "토비의 스프링";
 		BookVo bookVo = dao.get(title);
 		
